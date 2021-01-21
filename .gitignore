@@ -1,2 +1,4 @@
-fonts
-*.pdf
+/fonts
+/output.light.pdf
+/data.yaml
+/IMG_0132.JPG
