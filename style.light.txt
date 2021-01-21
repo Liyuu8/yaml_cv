@@ -1,78 +1,82 @@
 # header
-string,106mm,245mm,$date,font_size=9
-string,5mm,247mm,履　歴　書,font_size=14,font_face=gothic
+string,106mm,251mm,$date,font_size=9
+string,5mm,253mm,履　歴　書,font_size=14,font_face=gothic
 
 # photo
-box,145mm,206mm,30mm,40mm,line_style=dashed
-photo,145mm,246mm,30mm,40mm
+box,145mm,212mm,30mm,40mm,line_style=dashed
+photo,145mm,252mm,30mm,40mm
 
 # identity
-lines,6,0mm,240mm,139mm,0mm,0mm,-37mm,38mm,0mm,0mm,-27mm,-177mm,0mm,line_width=2.0,close=true
+lines,6,0mm,246mm,139mm,0mm,0mm,-37mm,38mm,0mm,0mm,-27mm,-177mm,0mm,line_width=2.0,close=true
 
 ## name
-string,2mm,238mm,ふりがな,font_size=9
-string,26mm,238mm,$name_kana,font_size=9
-line,0,233mm,139mm,0,line_style=dashed
-string,2mm,231mm,氏名,font_size=9
-string,26mm,228mm,$name,font_size=14
+string,2mm,244mm,ふりがな,font_size=9
+string,26mm,244mm,$name_kana,font_size=9
+line,0,239mm,139mm,0,line_style=dashed
+string,2mm,237mm,氏名,font_size=9
+string,26mm,234mm,$name,font_size=14
 
 ## separate_horizontal
-line,0,218mm,139mm,0mm
+line,0,224mm,139mm,0mm
 
 ## birth_day
-string,2mm,216mm,生年月日,font_size=9
-string,26mm,213mm,$birth_day,font_size=11
+string,2mm,222mm,生年月日,font_size=9
+string,26mm,219mm,$birth_day,font_size=11
 
 ## separate_vertical
-line,104mm,218mm,0mm,-15mm
+line,104mm,224mm,0mm,-15mm
 
 ## gender
-string,106mm,216mm,性別,font_size=9
-string,120mm,213mm,$gender,font_size=11
+string,106mm,222mm,性別,font_size=9
+string,120mm,219mm,$gender,font_size=11
 
 ## separate_horizontal
-line,0,203mm,139mm,0mm,line_width=2.0
+line,0,209mm,139mm,0mm,line_width=2.0
 
 ## address
-string,2mm,201mm,ふりがな,font_size=9
-line,0,196mm,139mm,0,line_style=dashed
-string,19mm,201mm,$address_kana,font_size=9
-string,2mm,195mm,現住所,font_size=9
-string,15mm,193mm,〒,font_size=9
-string,19mm,193mm,$address_zip,font_size=9
-string,15mm,187mm,$address,font_size=12
+string,2mm,207mm,ふりがな,font_size=9
+line,0,202mm,139mm,0,line_style=dashed
+string,19mm,207mm,$address_kana,font_size=9
+string,2mm,201mm,現住所,font_size=9
+string,15mm,199mm,〒,font_size=9
+string,19mm,199mm,$address_zip,font_size=9
+string,15mm,193mm,$address,font_size=12
 
 ## separate_vertical
-line,139mm,203mm,0mm,-27mm,line_width=2.0
+line,139mm,209mm,0mm,-27mm,line_width=2.0
 
 ## cell_phone
-string,141mm,202mm,携帯電話番号,font_size=8
-string,144mm,196mm,$cell_phone,font_size=9
+string,141mm,208mm,携帯電話番号,font_size=8
+string,144mm,202mm,$cell_phone,font_size=9
 
 ## separate_horizontal
-line,139mm,190mm,38mm,0mm,line_width=2.0
+line,139mm,196mm,38mm,0mm,line_width=2.0
 
 ## email
-string,141mm,189mm,Email,font_size=8
-string,144mm,183mm,$email,font_size=9
+string,141mm,195mm,Email,font_size=8
+string,144mm,189mm,$email,font_size=9
 
 # education, experience
-box,0mm,65mm,177mm,98mm,line_width=2
-multi_lines,0mm,72mm,177mm,0,13,0,7mm
-line,19mm,163mm,0,-98mm
-line,31mm,163mm,0,-98mm
-string,8mm,161mm,年,font_size=9
-string,24mm,161mm,月,font_size=9
-string,77mm,161mm,学歴・職歴（各項目ごとにまとめて書く）,font_size=9
-education_experience,155mm,5mm,24mm,35mm,7mm,95mm,155mm,font_size=10
+box,0mm,78mm,177mm,98mm,line_width=2
+multi_lines,0mm,85mm,177mm,0,13,0,7mm
+line,19mm,176mm,0,-98mm
+line,31mm,176mm,0,-98mm
+string,8mm,174mm,年,font_size=9
+string,24mm,174mm,月,font_size=9
+string,77mm,174mm,学歴・職歴（各項目ごとにまとめて書く）,font_size=9
+education_experience,168mm,5mm,24mm,35mm,7mm,95mm,160mm,font_size=10
 
 # licenses 
-box,0,3mm,177mm,49mm,line_width=2
-line,19mm,3mm,0,49mm
-line,31mm,3mm,0,49mm
-multi_lines,0mm,10mm,177mm,0,6,0,7mm
-string,8mm,50mm,年,font_size=9
-string,24mm,50mm,月,font_size=9
-string,90mm,50mm,免許・資格,font_size=9
-history,43mm,5mm,24mm,35mm,-7mm,$licences,font_size=10
+box,0,44mm,177mm,28mm,line_width=2
+line,19mm,44mm,0,28mm
+line,31mm,44mm,0,28mm
+multi_lines,0mm,51mm,177mm,0,3,0,7mm
+string,8mm,70mm,年,font_size=9
+string,24mm,70mm,月,font_size=9
+string,90mm,70mm,免許・資格,font_size=9
+history,63mm,5mm,24mm,35mm,-7mm,$licences,font_size=10
 
+# motivation
+box,0,6mm,177mm,32mm,line_width=2
+string,2mm,36mm,志望動機・自己PR等,font_size=9
+textbox,2mm,30mm,173mm,30mm,$motivation,font_size=10
